@@ -9,7 +9,7 @@ contract("Token Test", function(accounts) {
 
 
     beforeEach(async () => {
-      this.myToken = await Token.new(process.env.INITIAL_TOKENS);
+      this.myToken = await Token.new(10000);
     });
 
     it("All tokens should be in my account", async () => {
