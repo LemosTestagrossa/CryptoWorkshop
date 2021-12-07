@@ -21,5 +21,8 @@
   "homepage": "https://github.com/LemosTestagrossa/CryptoWorkshop#readme",
   "devDependencies": {
     "@openzeppelin/contracts": "^4.4.0"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0"
   }
 }
