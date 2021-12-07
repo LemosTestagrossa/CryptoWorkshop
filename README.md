@@ -1,4 +1,4 @@
-# Token CryptoWorkshop
+# CryptoWorkshop
 
 
 . open Ganache
