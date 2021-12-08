@@ -23,6 +23,9 @@
     "@openzeppelin/contracts": "^4.4.0"
   },
   "dependencies": {
-    "@truffle/hdwallet-provider": "^2.0.0"
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "chai": "^4.3.4",
+    "web3": "^1.6.1",
+    "web3-eth-accounts": "^1.6.1"
   }
 }

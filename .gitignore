@@ -102,3 +102,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# ignore contract build
+build/
+
+# ignore deploys
+deploys/
+
+# ignore MAC specific files
+.DS_STORE
