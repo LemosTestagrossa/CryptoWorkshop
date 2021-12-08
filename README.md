@@ -12,7 +12,7 @@ https://code.visualstudio.com/Download
 https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity
 
 3. Install Truffle 
-npm install truffle -g
+`npm install truffle -g`
 
 4. Install Ganache
 https://trufflesuite.com/ganache/
@@ -20,7 +20,8 @@ https://trufflesuite.com/ganache/
 ## How to setup
 
 #### Install npm packages
-1. run `npm install`
+1. Install all dependencies
+`npm install`
 
 #### Setup Ganache
 1. open Ganache
@@ -38,7 +39,8 @@ https://trufflesuite.com/ganache/
 1. open project in Ganache
 <img width="1201" alt="Screen Shot 2021-12-08 at 1 16 30 AM" src="https://user-images.githubusercontent.com/9152392/145125804-ba03e23e-734e-4ec0-9704-12faf006d8c7.png">
 
-2. run `truffle test`
+2. Run tests 
+`truffle test`
 
 ## How to run on the testnet
 
