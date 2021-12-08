@@ -7,23 +7,9 @@ import "@openzeppelin/contracts/token/ERC20/presets/ERC20PresetMinterPauser.sol"
 
 
 /*
+This ECR20 token:
 
-MyToken: 
-[Proof of concept]
-Is an ERC20 token that is going to be sold in a crowdsale.
-
-Inherits from two interfaces: 
-  - ERC20Capped
-  - ERC20PresetMinterPauser
-
-
-
-ERC20Capped:
-Extension of ERC20 that adds a cap to the supply of tokens.
-
-
-
-ERC20PresetMinterPauser:
+- adds a cap to the supply of tokens
 
 - ability for holders to burn (destroy) their tokens
 
