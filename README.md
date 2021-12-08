@@ -25,9 +25,7 @@ https://trufflesuite.com/ganache/
 
 #### Setup Ganache
 1. open Ganache
-<img width="1201" alt="Screen Shot 2021-12-07 at 5 16 13 PM" src="https://user-images.githubusercontent.com/9152392/145070217-de200517-db42-46dd-b5bb-19cf7e9edc48.png">
-
-2. select Ethereum project
+2. select `New Workspace`
 <img width="1201" alt="Screen Shot 2021-12-07 at 4 51 47 PM" src="https://user-images.githubusercontent.com/9152392/145062242-39149f2c-1fa1-4b8d-a8ed-e10ba8eda432.png">
 
 3. point to truffle-config.js
