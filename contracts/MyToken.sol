@@ -5,7 +5,6 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
 import "@openzeppelin/contracts/token/ERC20/presets/ERC20PresetMinterPauser.sol";
 
-
 /*
 This ECR20 token:
 
@@ -24,19 +23,16 @@ The account that deploys the contract will be granted the minter and pauser role
 as well as the default admin role, which will let it grant both minter and pauser roles 
 to other accounts.
 */
-
 contract MyToken is ERC20, ERC20Capped, ERC20PresetMinterPauser {
-    
     constructor(
         string memory name,
         string memory symbol,
         uint256 initialSupply
-    ) 
+    )
         ERC20Capped(initialSupply * 2)
         ERC20PresetMinterPauser("StarDucks Capu-Token", "SCT")
     {
-        
-    _mint(msg.sender, initialSupply);
+        _mint(msg.sender, initialSupply);
     }
 
     function _beforeTokenTransfer(
@@ -47,11 +43,11 @@ contract MyToken is ERC20, ERC20Capped, ERC20PresetMinterPauser {
         super._beforeTokenTransfer(from, to, amount);
     }
 
-
-    function _mint(
-        address to,
-        uint256 amount
-    ) internal virtual override(ERC20, ERC20Capped) {
+    function _mint(address to, uint256 amount)
+        internal
+        virtual
+        override(ERC20, ERC20Capped)
+    {
         super._mint(to, amount);
     }
 }

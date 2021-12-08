@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "truffle test",
-    "prettier": "prettier --write 'contracts/**/*.sol'"
+    "prettier": "prettier  --write '**/*.{js,sol}'"
   },
   "repository": {
     "type": "git",
