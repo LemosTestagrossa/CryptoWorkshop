@@ -47,5 +47,6 @@ https://trufflesuite.com/ganache/
 2. Create your Metamask account https://metamask.io/
 3. Setup Binance Studio https://github.com/LemosTestagrossa/CryptoWorkshop/issues/2#issuecomment-988303101
 4. Add the Metamask Account to Binance Studio https://github.com/LemosTestagrossa/CryptoWorkshop/issues/2#issuecomment-988397125
-5. Deploy a contract https://github.com/LemosTestagrossa/CryptoWorkshop/issues/2#issuecomment-988392379
-6. Interact with the contract: https://github.com/LemosTestagrossa/CryptoWorkshop/issues/2#issuecomment-988399511
+5. Copy and paste your Metamask mnemonic to the .secret file
+6. Deploy a contract https://github.com/LemosTestagrossa/CryptoWorkshop/issues/2#issuecomment-988392379
+7. Interact with the contract: https://github.com/LemosTestagrossa/CryptoWorkshop/issues/2#issuecomment-988399511
