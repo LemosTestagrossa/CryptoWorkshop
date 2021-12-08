@@ -30,7 +30,7 @@ contract MyToken is ERC20, ERC20Capped, ERC20PresetMinterPauser {
         uint256 initialSupply
     )
         ERC20Capped(initialSupply * 2)
-        ERC20PresetMinterPauser("StarDucks Capu-Token", "SCT")
+        ERC20PresetMinterPauser(name, symbol)
     {
         _mint(msg.sender, initialSupply);
     }
